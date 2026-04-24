@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Replace https://YOUR_DOMAIN_HERE before publishing as sitemap.xml. -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://YOUR_DOMAIN_HERE/</loc>
+  </url>
+  <url>
+    <loc>https://YOUR_DOMAIN_HERE/guides.html</loc>
+  </url>
+  <url>
+    <loc>https://YOUR_DOMAIN_HERE/articles/dog-food-label.html</loc>
+  </url>
+  <url>
+    <loc>https://YOUR_DOMAIN_HERE/articles/cat-food-label.html</loc>
+  </url>
+  <url>
+    <loc>https://YOUR_DOMAIN_HERE/articles/trustworthy-recommendation-page.html</loc>
+  </url>
+  <url>
+    <loc>https://YOUR_DOMAIN_HERE/articles/budget-kibble-comparison.html</loc>
+  </url>
+  <url>
+    <loc>https://YOUR_DOMAIN_HERE/articles/complete-and-balanced.html</loc>
+  </url>
+  <url>
+    <loc>https://YOUR_DOMAIN_HERE/legal.html</loc>
+  </url>
+</urlset>

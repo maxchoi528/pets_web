@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://maxchoi528.github.io/pets_web/sitemap.xml

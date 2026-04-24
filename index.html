@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Cozy pet calculators, food guides, and gentle planning tools for everyday dog and cat care."
+    />
+    <title>Pet Nook Tools</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,650&family=Manrope:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="site-header" aria-label="Primary">
+      <a class="brand" href="#top" aria-label="Pet Nook Tools home">
+        <img class="brand-logo" src="./assets/logo-mark.png" alt="" aria-hidden="true" />
+        <span>Pet Nook Tools</span>
+      </a>
+      <nav class="nav-links" aria-label="Site sections">
+        <a href="#tools">Tools</a>
+        <a href="./guides.html">Guides</a>
+        <a href="#standards">Standards</a>
+        <a href="./legal.html">Legal</a>
+      </nav>
+      <button class="theme-toggle" type="button" aria-label="Switch to dark mode" aria-pressed="false">
+        <span class="toggle-sun" aria-hidden="true"></span>
+        <span class="toggle-moon" aria-hidden="true"></span>
+      </button>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">pet calculators, calm guides, useful little rituals</p>
+          <h1 id="hero-title">
+            <span>A cozy desk</span>
+            <span>for better</span>
+            <span>pet decisions.</span>
+          </h1>
+          <p class="hero-text">
+            Simple tools for meals, weight, calories, water, reminders, and product notes without turning pet care into a spreadsheet.
+          </p>
+          <div class="hero-actions" aria-label="Primary actions">
+            <a class="button primary" href="#tools">Explore tools</a>
+            <a class="button ghost" href="#guides">Read food notes</a>
+            <a class="button ghost" href="#standards">Read standards</a>
+          </div>
+        </div>
+
+        <div class="pet-window has-art" aria-label="Dog and cat hero illustration">
+          <img src="./assets/hero-main.png" alt="A dog and cat resting together on a sunlit desk by a window." />
+        </div>
+      </section>
+
+      <section class="tool-strip" id="tools" aria-labelledby="tools-title">
+        <div class="section-heading">
+          <p class="section-kicker">tool shelf</p>
+          <h2 id="tools-title">Twelve useful pet tools</h2>
+        </div>
+        <div class="tools-grid">
+          <button class="tool-tile featured" type="button" data-tool-open="food" aria-label="Daily food calculator">
+            <span class="tool-number">01</span>
+            <strong>Daily food calculator</strong>
+            <small>Body weight, goal weight, activity, meal split.</small>
+          </button>
+          <button class="tool-tile" type="button" data-tool-open="calories" aria-label="Calorie needs calculator">
+            <span class="tool-number">02</span>
+            <strong>Calorie needs</strong>
+            <small>RER and MER estimate with plain-language ranges.</small>
+          </button>
+          <button class="tool-tile" type="button" data-tool-open="treats" aria-label="Treat budget calculator">
+            <span class="tool-number">03</span>
+            <strong>Treat budget</strong>
+            <small>Keep snacks inside a daily calorie allowance.</small>
+          </button>
+          <button class="tool-tile" type="button" data-tool-open="water" aria-label="Water intake calculator">
+            <span class="tool-number">04</span>
+            <strong>Water intake</strong>
+            <small>Daily hydration estimate for dogs and cats.</small>
+          </button>
+          <button class="tool-tile" type="button" data-tool-open="bcs" aria-label="Body condition score guide">
+            <span class="tool-number">05</span>
+            <strong>Body condition</strong>
+            <small>Simple 1-9 BCS reference and tracking notes.</small>
+          </button>
+          <button class="tool-tile" type="button" data-tool-open="age" aria-label="Pet age converter">
+            <span class="tool-number">06</span>
+            <strong>Age converter</strong>
+            <small>Dog and cat life-stage view, not a gimmick chart.</small>
+          </button>
+          <button class="tool-tile" type="button" data-tool-open="frequency" aria-label="Puppy and kitten meal frequency planner">
+            <span class="tool-number">07</span>
+            <strong>Meal frequency</strong>
+            <small>Puppy and kitten feeding rhythm by month age.</small>
+          </button>
+          <button class="tool-tile" type="button" data-tool-open="vaccines" aria-label="Vaccine timeline planner">
+            <span class="tool-number">08</span>
+            <strong>Vaccine timeline</strong>
+            <small>Printable questions to bring to a vet visit.</small>
+          </button>
+          <button class="tool-tile" type="button" data-tool-open="deworming" aria-label="Deworming reminder planner">
+            <span class="tool-number">09</span>
+            <strong>Deworming planner</strong>
+            <small>Reminder schedule shell without dosage claims.</small>
+          </button>
+          <button class="tool-tile" type="button" data-tool-open="travel" aria-label="Travel checklist generator">
+            <span class="tool-number">10</span>
+            <strong>Travel checklist</strong>
+            <small>Trip prep list for food, meds, documents, comfort.</small>
+          </button>
+          <button class="tool-tile" type="button" data-tool-open="budget" aria-label="Annual pet budget planner">
+            <span class="tool-number">11</span>
+            <strong>Annual budget</strong>
+            <small>Food, routine care, supplies, insurance prompts.</small>
+          </button>
+          <button class="tool-tile" type="button" data-tool-open="safety" aria-label="Food safety lookup">
+            <span class="tool-number">12</span>
+            <strong>Food safety lookup</strong>
+            <small>Searchable caution list for common household foods.</small>
+          </button>
+        </div>
+      </section>
+
+      <section class="tool-workbench" id="workbench" aria-labelledby="workbench-title">
+        <div class="calculator-copy">
+          <p class="section-kicker">first build candidate</p>
+          <h2 id="workbench-title">Choose a tool and calculate.</h2>
+          <p>
+            These are planning estimates for everyday decisions. Serious diet, vaccine, medication, or safety questions still belong with a veterinarian.
+          </p>
+        </div>
+        <div class="workbench-shell">
+          <div class="tool-tabs" role="tablist" aria-label="Pet tools"></div>
+          <div class="tool-panel" aria-live="polite"></div>
+        </div>
+      </section>
+
+      <section class="atlas-section" id="nutrition" aria-labelledby="atlas-title">
+        <div class="section-heading">
+          <p class="section-kicker">visual guides</p>
+          <h2 id="atlas-title">Two quiet nutrition overviews</h2>
+        </div>
+        <div class="atlas-grid">
+          <article class="atlas-card">
+            <div class="atlas-frame">
+              <img src="./assets/atlas-dog.png" alt="Dog nutrition overview with food and nutrient cues arranged on a warm desk." />
+            </div>
+            <div class="atlas-copy">
+              <h3>Dog food basics</h3>
+              <p>A visual overview of adult-dog food basics, label cues, and portion context.</p>
+            </div>
+          </article>
+          <article class="atlas-card">
+            <div class="atlas-frame">
+              <img src="./assets/atlas-cat.png" alt="Cat nutrition overview with hydration and food cues arranged on a warm desk." />
+            </div>
+            <div class="atlas-copy">
+              <h3>Cat food basics</h3>
+              <p>A visual overview of taurine, hydration, and feline feeding cues.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="journal" id="guides" aria-labelledby="journal-title">
+        <div class="section-heading">
+          <p class="section-kicker">food notes</p>
+          <h2 id="journal-title">Five fact-checkable launch articles.</h2>
+        </div>
+        <div class="article-list">
+          <article>
+            <a class="article-link" href="./articles/dog-food-label.html">
+              <div class="article-cover">
+                <img src="./assets/article-dog-food-label.png" alt="Editorial still life with a dog food bag, portion scoop, bowl of kibble, and feeding notes on a warm desk." />
+              </div>
+              <div class="article-copy">
+                <h3>How much should I feed my dog per day?</h3>
+                <p>Use life stage, calories per cup, feeding directions, and body condition together.</p>
+              </div>
+            </a>
+          </article>
+          <article>
+            <a class="article-link" href="./articles/cat-food-label.html">
+              <div class="article-cover poster-cover">
+                <img src="./assets/article-cat-food-label.png" alt="Editorial still life with canned cat food, a bowl, treat jar, water glass, and feline feeding notes on a warm desk." />
+              </div>
+              <div class="article-copy">
+                <h3>How much should I feed my cat per day?</h3>
+                <p>Calories, meal rhythm, wet-versus-dry volume, and appetite all matter.</p>
+              </div>
+            </a>
+          </article>
+          <article>
+            <a class="article-link" href="./articles/trustworthy-recommendation-page.html">
+              <div class="article-cover">
+                <img src="./assets/article-trustworthy-page.png" alt="Editorial still life with treat bowls, feeding checklist notes, comparison cards, and a scale on a warm desk." />
+              </div>
+              <div class="article-copy">
+                <h3>Why treats should stay within about 10% of daily calories.</h3>
+                <p>Most treats are extras, not nutritionally complete diets, and their calories still count.</p>
+              </div>
+            </a>
+          </article>
+          <article>
+            <a class="article-link" href="./articles/budget-kibble-comparison.html">
+              <div class="article-cover">
+                <img src="./assets/article-budget-kibble.png" alt="Editorial still life for comparing pet foods with three bags, note cards, a calculator, measuring cup, and a scale." />
+              </div>
+              <div class="article-copy">
+                <h3>How to compare pet foods by cost per 1,000 kcal.</h3>
+                <p>Price the usable calories, not just the bag.</p>
+              </div>
+            </a>
+          </article>
+          <article>
+            <a class="article-link" href="./articles/complete-and-balanced.html">
+              <div class="article-cover">
+                <img src="./assets/article-complete-balanced.png" alt="Editorial concept illustration for complete-and-balanced and life-stage labels with charts, bowls, and a reference board." />
+              </div>
+              <div class="article-copy">
+                <h3>What “complete and balanced” and life-stage labels mean.</h3>
+                <p>The adequacy statement matters more than front-of-bag confidence.</p>
+              </div>
+            </a>
+          </article>
+        </div>
+      </section>
+
+      <section class="standards-band" id="standards" aria-labelledby="standards-title">
+        <div>
+          <p class="section-kicker">editorial standards</p>
+          <h2 id="standards-title">Calm pet advice has to declare its limits.</h2>
+          <p>
+            These pages stay inside everyday nutrition, budgeting, label-reading, and planning questions. They do not diagnose disease, choose treatment,
+            give medication doses, or replace a veterinarian when the question turns medical.
+          </p>
+        </div>
+        <a class="button primary" href="./legal.html">Read disclosure</a>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Pet Nook Tools</p>
+      <p><a href="./legal.html">Affiliate disclosure and veterinary disclaimer</a></p>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
