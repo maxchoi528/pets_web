@@ -1107,6 +1107,7 @@ h3 {
 
 .article-hero,
 .article-body,
+.article-related,
 .article-sources {
   padding: clamp(58px, 8vw, 108px) clamp(18px, 6vw, 78px);
 }
@@ -1179,6 +1180,7 @@ h3 {
 }
 
 .article-body,
+.article-related,
 .article-sources {
   border-top: 1px solid var(--line);
 }
@@ -1245,6 +1247,7 @@ h3 {
 }
 
 .article-body h2,
+.article-related h2,
 .article-sources h2 {
   margin: 0;
   font-size: clamp(1.86rem, 3vw, 2.9rem);
@@ -1270,6 +1273,7 @@ h3 {
 
 .article-body p,
 .article-body li,
+.related-list li,
 .source-list li {
   max-width: 62ch;
   color: var(--muted);
@@ -1285,12 +1289,14 @@ h3 {
 }
 
 .article-body ul,
+.related-list,
 .source-list {
   margin: 0;
   padding-left: 24px;
 }
 
 .article-body a,
+.related-list a,
 .source-list a {
   text-decoration-thickness: 0.08em;
   text-underline-offset: 0.16em;
@@ -1317,15 +1323,21 @@ h3 {
   line-height: 1.82;
 }
 
+.article-related {
+  background: color-mix(in srgb, var(--paper) 78%, transparent);
+}
+
 .article-sources {
   background: color-mix(in srgb, var(--paper-soft) 84%, transparent);
 }
 
+.related-list,
 .source-list {
   display: grid;
   gap: 10px;
 }
 
+.related-list a:hover,
 .source-list a:hover,
 .article-body a:hover {
   text-decoration: underline;
